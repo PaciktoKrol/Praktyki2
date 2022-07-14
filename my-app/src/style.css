@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family:Inter,sans-serif;
+    height: 100vh;
+    background-color: #282D35;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    padding:30px 25px;
+    height: 90px;
+}
+
+.nav > h3, .nav > h4{
+margin:0;
+}
+
+.nav > img{
+    height:30px;
+}
+
+.nav > h3{
+    margin-right:auto;
+    color: #61dafb;
+    font: size 22px;
+}
+
+.nav > h4{
+    color:#DEEBF5;
+    font-weight: 600;
+}
+
+main{
+    padding: 75px 27px;
+    color:white;
+    background-image: url(/Users/michal/my-app/public/logo512.png);
+    background-repeat: no-repeat;
+    background-position-x:right 50%; 
+     background-position-y:center ;
+}
+
+main > h1{
+    margin:0;
+    font-size:39px;
+}
+
+main > ul{
+    margin-top:46px;
+    max-width: 400px;
+}
+
+main > ul > li{
+    line-height: 19px;
+    padding-block:10px;
+}
+
+main > ul > li::marker{
+font-size:1.4rem;
+color:#61dafb
+}
