@@ -1,0 +1,89 @@
+
+
+#root{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550;
+    position: relative;
+}
+
+main{
+    padding: 36px;
+}
+
+
+.NavBar{
+    position: relative;
+    width: 550px;
+    height: 65px;
+    left: 36px;
+        top: 0px;
+
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.NavBar--title{
+    position: relative;
+width: 140.79px;
+height: 24px;
+left: 58px;
+top: 21px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 20.7482px;
+line-height: 24px;
+letter-spacing: -0.1em;
+
+color: #FFFFFF;
+}
+
+NavBar--img{
+    position: relative;
+left: 5.99%;
+right: 93.56%;
+top: 5.47%;
+bottom: 94.35%;
+
+background: #0D0D0D;
+}
+
+.NavBar--p{
+    position: relative;
+width: 189px;
+height: 14px;
+left: 324px;
+top: -50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+
+color: #FFFFFF;
+}
+
+.Form{
+    display: grid;
+    width: 550px;
+    grid-template: 40px 40px / 1fr 1fr ;
+    gap:17px;
+}
+
+.Form-input{
+    border-radius: 5px;
+    border: 1px solid #d5d4d8;
+    text-indent:5px;
+}
+
+.Form-button{
+    grid-column: 1 / -1;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border:none;
+    cursor: pointer;
+}

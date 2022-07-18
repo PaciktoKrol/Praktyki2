@@ -58,6 +58,7 @@ background: #ffffff;
 
 .img{
     float: left;
+    display: block;
 }
 
 
@@ -114,4 +115,13 @@ color: #2B283A;
     position: relative;
     top:-50px ;
     left: 15px;
+}
+
+.section{
+    position: relative;
+    height: 100px;
+    width: 350px;
+    left: 150px;
+    margin: 0;
+    padding: 0;
 }
